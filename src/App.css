@@ -1,5 +1,49 @@
 .App {
-  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  padding: 48;
+  display: flex;
+  background-color: #fff;
+  justify-content: center;
+  align-items: end;
+}
+
+.partyPopperLeft {
+  transform: rotate(180deg);
+  z-index: 0;
+}
+.balloon {
+  width: 280px;
+  top: 0;
+  right: 0;
+  position: fixed;
+  transform: rotate(180deg);
+}
+
+.balloonTwo {
+  width: 380px;
+  position: fixed;
+  top: 0;
+  right: 10px;
+  transform: rotate(180deg);
+}
+
+.balloonThree {
+  width: 380px;
+  position: fixed;
+  top: 0;
+  left: 10px;
+  z-index: 1;
+  transform: rotate(180deg);
+}
+
+.balloonFour {
+  width: 280px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transform: rotate(180deg);
 }
 
 .App-logo {
